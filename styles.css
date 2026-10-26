@@ -40,3 +40,49 @@
   color: var(--muted);
   margin-bottom: 0;
 }
+
+
+/* improve navigation links on desktop and mobile */
+.site-header nav a {
+  display: inline-block;
+  padding: 8px 10px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease,
+              color 0.2s ease;
+}
+
+.site-header nav a:hover {
+  background: #f4e6d0;
+  text-decoration: none;
+}
+
+.site-header nav a[aria-current="page"] {
+  background: #f4e6d0;
+  color: var(--accent-dark);
+}
+
+.site-header nav a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (max-width: 600px) {
+  .site-header {
+    gap: 12px;
+    padding: 16px 20px;
+  }
+
+  .site-header nav {
+    width: 100%;
+    gap: 6px;
+  }
+
+  .site-header nav a {
+    padding: 9px 10px;
+    font-size: 0.9rem;
+  }
+
+  .brand {
+    white-space: normal;
+  }
+}
