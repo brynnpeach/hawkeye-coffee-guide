@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://brynnpeach.github.io/hawkeye-coffee-guide/sitemap.xml
