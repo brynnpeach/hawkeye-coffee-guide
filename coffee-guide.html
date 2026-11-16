@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A beginner-friendly guide to coffee drinks, flavors, and ordering tips for Iowa City students.">
+  <title>Coffee Guide | Hawkeye Coffee Guide</title>
+  <style>
+    :root {
+      --paper: #fbf8f1;
+      --accent: #9b3f2d;
+      --ink: #342b27;
+      --muted: #6d625b;
+      --card: #fffdf9;
+      --line: #e8dfd4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.7;
+    }
+    a { color: var(--accent); }
+    .site-header {
+      background: var(--card);
+      border-bottom: 1px solid var(--line);
+      padding: 18px 6%;
+    }
+    .nav-wrap {
+      max-width: 1120px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+    .brand {
+      color: var(--accent);
+      font-size: 1.25rem;
+      font-weight: bold;
+      text-decoration: none;
+      letter-spacing: .02em;
+    }
+    nav { display: flex; gap: 20px; flex-wrap: wrap; }
+    nav a {
+      color: var(--ink);
+      font-family: Arial, sans-serif;
+      font-size: .9rem;
+      text-decoration: none;
+    }
+    nav a:hover, nav a[aria-current="page"] { color: var(--accent); text-decoration: underline; }
+    main { max-width: 920px; margin: 0 auto; padding: 54px 24px 70px; }
+    .eyebrow {
+      color: var(--accent);
+      font-family: Arial, sans-serif;
+      font-size: .78rem;
+      font-weight: bold;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    h1, h2 { line-height: 1.2; }
+    h1 { max-width: 760px; margin: 10px 0 16px; font-size: clamp(2.3rem, 6vw, 4rem); }
+    .intro { max-width: 760px; color: var(--muted); font-size: 1.15rem; }
+    figure { margin: 34px 0 38px; }
+    figure img {
+      display: block;
+      width: 100%;
+      max-height: 470px;
+      object-fit: cover;
+      border-radius: 14px;
+    }
+    figcaption { margin-top: 9px; color: var(--muted); font: .82rem Arial, sans-serif; }
+    article { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: clamp(22px, 5vw, 42px); }
+    h2 { margin: 28px 0 10px; color: var(--accent); font-size: 1.65rem; }
+    h2:first-child { margin-top: 0; }
+    p { margin: 0 0 16px; }
+    .tip {
+      margin: 26px 0;
+      padding: 18px 22px;
+      border-left: 4px solid var(--accent);
+      background: #f5eee5;
+      border-radius: 0 10px 10px 0;
+    }
+    footer {
+      padding: 24px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      text-align: center;
+      font: .85rem Arial, sans-serif;
+    }
+    @media (max-width: 600px) {
+      .site-header { padding: 16px 20px; }
+      nav { gap: 12px; }
+      nav a { font-size: .82rem; }
+      main { padding-top: 38px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">Hawkeye Coffee Guide</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="breakfast.html">Breakfast</a>
+        <a href="study-spots.html">Study Spots</a>
+        <a href="coffee-guide.html" aria-current="page">Coffee Guide</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <p class="eyebrow">Your Iowa City coffee companion</p>
+    <h1>A Beginner’s Guide to Ordering Coffee</h1>
+    <p class="intro">Coffee shop menus can feel like they have their own language. Whether you are stopping between classes or settling in for a study session, knowing a few basics can make choosing your drink a lot easier.</p>
+
+    <figure>
+      <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&amp;fit=crop&amp;w=1400&amp;q=85"
+           alt="Freshly prepared coffee on a cafe table">
+      <figcaption>A coffee break can be a simple way to reset between classes.</figcaption>
+    </figure>
+
+    <article>
+      <h2>Start with the coffee basics</h2>
+      <p>Most espresso-based drinks begin with espresso, a concentrated coffee made by pushing hot water through finely ground coffee. Because espresso has a stronger flavor in a smaller serving, it is often used as the base for drinks that include milk, water, or ice. A latte combines espresso with steamed milk and a thin layer of foam. It is a popular choice for people who enjoy a smooth, creamy drink without an especially intense coffee taste. A cappuccino also uses espresso and steamed milk, but it usually has a more noticeable layer of airy foam. That lighter texture can make the coffee flavor stand out a little more.</p>
+
+      <p>If you prefer a stronger drink, consider an americano. It is made by adding hot water to espresso, creating a drink that is similar in size to brewed coffee but has a different flavor profile. A macchiato traditionally contains espresso with a small amount of milk or foam. Coffee chains sometimes use the word for larger, sweeter drinks, so it is helpful to check the menu description before ordering.</p>
+
+      <h2>Hot, iced, or cold brew?</h2>
+      <p>The temperature and brewing method can change the experience just as much as the ingredients. Iced coffee is generally brewed hot and then cooled before it is served over ice. Cold brew is made by steeping coffee grounds in cool or room-temperature water for an extended period. This slower process often creates a smooth, mellow drink that many people find less sharp or bitter. Cold brew can still contain a substantial amount of caffeine, so check the serving size if you are trying to keep your caffeine intake modest.</p>
+
+      <p>For a warm drink, think about how much milk you enjoy. A latte is a good starting point if you like a softer flavor, while an americano lets more of the espresso taste come through. For an iced option, you can often ask for a latte over ice, choose iced coffee, or try cold brew. Each shop prepares its drinks a little differently, which is part of the fun of exploring local cafes.</p>
+
+      <h2>Customize your order without overthinking it</h2>
+      <p>Once you know the basic drink, small changes can make it feel more personal. Different milk options, such as oat, almond, or soy, can change the texture and flavor. A flavored syrup can add sweetness, while cinnamon or cocoa may add flavor without making the drink taste like dessert. If you are unsure how sweet a drink will be, ask for fewer pumps of syrup or request the flavor on the side when the shop allows it.</p>
+
+      <p>You can also ask about decaf espresso or half-caf options if you want the coffee-shop experience with less caffeine. Keep in mind that decaf is not always completely caffeine-free. If you have dietary needs or allergies, ask the barista about ingredients and how drinks are prepared rather than relying on a menu name alone.</p>
+
+      <h2>Make your coffee stop work for your day</h2>
+      <p>Choosing a drink is only one part of a good cafe visit. If you are heading to class, a smaller drink may be easier to carry. If you plan to study for a while, consider ordering a drink you can enjoy slowly and checking the shop’s seating expectations. Some cafes get busy during morning rushes or around lunch, so being flexible about where you sit can make the visit more comfortable for everyone.</p>
+
+      <p>Most importantly, you do not need to know every coffee term before walking up to the counter. Tell the barista what flavors you like, whether you want something hot or iced, and how strong or sweet you prefer it. They can often help you find a good match. Trying a new drink is an easy way to discover what you enjoy, and there is no single correct coffee order. Use this guide as a starting point, explore Iowa City’s cafes at your own pace, and find the cup that fits your day.</p>
+
+      <div class="tip"><strong>Quick ordering tip:</strong> Try saying, “I’d like something iced, not too sweet, and with a mild coffee flavor.” That gives the barista a helpful starting point without requiring you to know every menu term.</div>
+    </article>
+  </main>
+
+  <footer>
+    Hawkeye Coffee Guide · A fictional student project created for exploring Iowa City coffee culture.
+  </footer>
+</body>
+</html>
